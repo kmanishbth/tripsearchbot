@@ -1,5 +1,9 @@
 const {tokenGeneration} = require('../request/tokengeneration')
 
+
+// const ENV_FILE = path.join(__dirname, '.env');
+// require('dotenv').config({ path: ENV_FILE });
+
 // Search trip by emailID
 
 async function tripSearchApiCall(){  
@@ -7,7 +11,7 @@ async function tripSearchApiCall(){
     const token = await tokenGeneration()
     
     var data = JSON.stringify({
-      "limit": 15,
+      "limit": 1,
       "offset": 0,
       "sort": [
         {
@@ -35,6 +39,43 @@ async function tripSearchApiCall(){
     })
     }
     
+
+
+    // async function tripSearchApiCall(){  
+    //     var axios = require('axios');
+    //     const token = await tokenGeneration()
+        
+    //     var data = JSON.stringify({
+    //       "limit": 1,
+    //       "offset": 0,
+    //       "sort": [
+    //         {
+    //             "outboundDate": "desc"
+    //         }
+    //       ],
+    //       "filter": {
+    //         "travelerEmailAddress": process.env.TestEmailID
+    //     }
+    //     });
+        
+    //     var config = {
+    //       method: 'post',
+    //       url: 'https://travel-data-api.bcdtravel.com/v1/trips',
+    //       headers: { 
+    //         'Content-Type': 'application/json', 
+    //         'Authorization': `Bearer ${token}`
+    //       },
+    //       data : data
+    //     };
+        
+    //     return axios(config)
+    //     .then((res) => {
+    //         console.log("inside search trip ")
+    //         console.log(JSON.stringify(res.data))
+    //         return res.data
+    //     })
+    //     }
+        
 
 
 // Get trip by ID
