@@ -1,0 +1,898 @@
+{
+   "code":200,
+   "status":"ok",
+   "result":{
+      "identification":{
+         "id":"f72e1c68-5441-6557-51a7-fb57b59add52",
+         "sourceId":"a8ffc403-067e-42cc-9ca1-2033c1e4b805",
+         "recordLocator":"IFCAUJ",
+         "gds":"SABRE",
+         "globalCustomerNumber":"odio593771",
+         "accountId":"999999901",
+         "accountCountryCode":"US",
+         "customerNumber":"9063004",
+         "customerName":"BCD TESTING 01",
+         "creationOfficeId":"H2AH",
+         "agentSignature":"AWS",
+         "pseudoCityCode":"H2AH",
+         "dataType":"BCD",
+         "dataProvider":"US",
+         "version":3
+      },
+      "tripDetails":{
+         "bookingDateTime":"2018-01-22T07:05:00Z",
+         "ticketedDateTime":"2018-01-24T00:00:00Z",
+         "sourceModifiedDateTime":"2020-04-13T23:54:16Z",
+         "lastModifiedDateTime":"2020-04-14T00:03:25Z",
+         "tripStartDateTime":"2021-04-04T00:03:19",
+         "tripEndDateTime":"2021-04-14T00:03:19",
+         "tripStatus":"past",
+         "isCancelled":false,
+         "flightType":"roundTrip",
+         "isInternational":true
+      },
+      "relatedBookings":[
+         
+      ],
+      "travelers":[
+         {
+            "travelerNumber":"1",
+            "name":{
+               "firstName":"Ellsworth",
+               "lastName":"Mikel"
+            },
+            "nameInGds":"Mikel/Ellsworth",
+            "loyaltyMemberships":[
+               
+            ],
+            "seatPreferences":[
+               {
+                  "locationCode":"C",
+                  "locationText":"Center",
+                  "notes":"COMPLEAT-SEAT PREFS/C"
+               }
+            ]
+         }
+      ],
+      "contacts":{
+         "phoneNumbers":[
+            {
+               "number":"1-844-423-3621 x1023",
+               "type":"Business"
+            },
+            {
+               "number":"412.025.2234",
+               "type":"Unknown"
+            },
+            {
+               "number":"726-685-8705 x76824",
+               "type":"Cellular"
+            },
+            {
+               "number":"260-483-2825 x6624",
+               "type":"Home"
+            },
+            {
+               "number":"070.857.1853",
+               "type":"Agent"
+            }
+         ],
+         "emailAddresses":[
+            
+         ]
+      },
+      "segments":[
+         {
+            "type":"Air",
+            "segmentNumber":1,
+            "segmentId":"15f226d9-f6ed-2c1c-4b83-0e15d643cc66",
+            "groupId":"ddc0acdb-1caf-a552-7942-c5b791253dad",
+            "title":"Bristol Bayu Indonesia",
+            "confirmationNumber":"QWI4Q2",
+            "startDateTime":"2021-04-12T00:03:19+02:00",
+            "startTimezone":{
+               "name":"Europe/Paris",
+               "code":"CEST"
+            },
+            "endDateTime":"2021-04-13T00:03:19+01:00",
+            "endTimezone":{
+               "name":"Europe/London",
+               "code":"BST"
+            },
+            "status":{
+               "code":"HK",
+               "description":"Booked"
+            },
+            "departureAirport":{
+               "airport":{
+                  "code":"CDG",
+                  "name":"Charles de Gaulle Airport",
+                  "address":{
+                     "address1":"95711",
+                     "address2":"Roissy Charles de Gaulle",
+                     "city":{
+                        "name":"Paris"
+                     },
+                     "region":{
+                        
+                     },
+                     "country":{
+                        "code":"FR",
+                        "name":"France"
+                     },
+                     "coordinates":{
+                        "latitude":"49.003197",
+                        "longitude":"2.567023"
+                     }
+                  },
+                  "metroArea":{
+                     "code":"PAR",
+                     "name":"Paris"
+                  },
+                  "isMajorAirport":false
+               },
+               "terminal":"AEROGARE 3"
+            },
+            "arrivalAirport":{
+               "airport":{
+                  "code":"BRS",
+                  "name":"Bristol Airport",
+                  "address":{
+                     "city":{
+                        "name":"Bristol"
+                     },
+                     "region":{
+                        "code":"EN",
+                        "name":"England"
+                     },
+                     "country":{
+                        "code":"GB",
+                        "name":"United Kingdom"
+                     },
+                     "coordinates":{
+                        "latitude":"51.386757",
+                        "longitude":"-2.710659"
+                     }
+                  },
+                  "metroArea":{
+                     
+                  },
+                  "isMajorAirport":false
+               }
+            },
+            "marketingFlight":{
+               "airlineCode":"BM",
+               "airlineName":"Bayu Indonesia",
+               "flightNumber":"4731"
+            },
+            "operatingFlight":{
+               
+            },
+            "isInternational":true,
+            "flightDirection":"outbound",
+            "ticket":{
+               "isTicketed":true,
+               "ticketNumber":"6352878677671",
+               "isTicketless":false,
+               "isETicketCandidate":true
+            },
+            "seatSelections":[
+               {
+                  "travelerNumber":"1",
+                  "location":"TER 30886 CL2",
+                  "notes":"LongFreeText-Air1"
+               }
+            ],
+            "mealPreferences":[
+               
+            ],
+            "meal":{
+               "hasSpecialMeal":0
+            },
+            "equipment":{
+               "code":"ER4"
+            },
+            "classOfService":{
+               "code":"Q",
+               "description":"Economy"
+            },
+            "inFlightServices":{
+               "code":"10",
+               "description":"Non Smoking"
+            },
+            "flightDistance":285,
+            "calculatedDefra":37.76,
+            "calculatedDefrarf":71.43,
+            "calculatedGhgp":78.66,
+            "calculatedCO2":[
+               {
+                  "key":"defra",
+                  "value":37.76
+               },
+               {
+                  "key":"defrarf",
+                  "value":71.43
+               },
+               {
+                  "key":"ghgp",
+                  "value":78.66
+               }
+            ],
+            "calculatedDuration":"75",
+            "numberOfStops":0,
+            "isScheduleChange":false,
+            "isFlown":false,
+            "isChangeOfGuage":false,
+            "marriedSegments":[
+               
+            ],
+            "connectedSegments":[
+               
+            ],
+            "isPassive":false,
+            "isCancelled":false
+         },
+         {
+            "type":"Bus",
+            "segmentNumber":1,
+            "segmentId":"0953cc22-f654-4a0c-63af-11a78d74b015",
+            "groupId":"5baca391-bbb7-7da5-d300-837fba75c567",
+            "title":"venenatis",
+            "confirmationNumber":"b13e4890-1127-45b1-a10b-e93ecbae5720",
+            "startDateTime":"2021-04-05T00:03:19",
+            "endDateTime":"2021-04-06T00:03:19",
+            "status":{
+               "code":"HK",
+               "description":"Booked"
+            },
+            "vendor":{
+               "name":"delenitiatque"
+            },
+            "departureStation":{
+               "address":{
+                  "city":{
+                     "code":"liberotempore"
+                  }
+               }
+            },
+            "arrivalStation":{
+               "address":{
+                  "city":{
+                     "code":"venenatis"
+                  }
+               }
+            },
+            "numberInParty":"7654321",
+            "fare":{
+               "quotedRate":{
+                  "amount":504,
+                  "currency":"USD"
+               },
+               "penaltyRate":{
+                  "amount":1227,
+                  "currency":"USD"
+               },
+               "netRate":{
+                  "amount":1569,
+                  "currency":"USD"
+               }
+            },
+            "calculatedDuration":"1440",
+            "isPassive":false,
+            "isCancelled":false,
+            "notes":"MSP"
+         },
+         {
+            "type":"Hotel",
+            "segmentNumber":2,
+            "segmentId":"4c96b7f6-4db9-76ef-244c-92c36e50ebb1",
+            "groupId":"793c754c-4abc-a59f-bbce-ae90fd2c8a31",
+            "title":"IBIS BRISTOL CENTRE",
+            "confirmationNumber":"LDVGLQ-            ",
+            "startDateTime":"2021-04-11T00:03:19+01:00",
+            "startTimezone":{
+               "name":"Europe/London",
+               "code":"BST"
+            },
+            "endDateTime":"2021-04-12T00:03:19+01:00",
+            "endTimezone":{
+               "name":"Europe/London",
+               "code":"BST"
+            },
+            "status":{
+               "code":"GK",
+               "description":"Booked"
+            },
+            "reservationName":"Hotel name",
+            "property":{
+               "name":"IBIS BRISTOL CENTRE",
+               "hotelChain":{
+                  "code":"HN"
+               },
+               "phone":{
+                  
+               },
+               "address":{
+                  "city":{
+                     "code":"BRS"
+                  },
+                  "region":{
+                     
+                  },
+                  "country":{
+                     
+                  },
+                  "notes":"EXPLORE LANE FOR CAR PARK USE BS1 5LL AVON B"
+               },
+               "airportCode":"BRS"
+            },
+            "numberOfNights":1,
+            "calculatedDuration":"1440",
+            "numberOfRooms":1,
+            "room":{
+               "type":{
+                  
+               },
+               "numberOfGuests":1,
+               "specialInstructions":"FREE TEX"
+            },
+            "fare":{
+               "rateSchedule":1,
+               "isMultiDateRate":2,
+               "rate":{
+                  "amount":1696.96,
+                  "currency":"USD"
+               },
+               "rateChangeDuringStay":2,
+               "rateChangeInfos":[
+                  
+               ],
+               "creditCardGuarantee":"Unknown"
+            },
+            "loyaltyMemberships":[
+               
+            ],
+            "isPassive":true,
+            "isCancelled":false,
+            "notes":"CY-GB\nTEL-44 117 319 9000\nFAX-\nHTS\nHRCOR\nFCGBP\nDR95\nHCC-RT"
+         },
+         {
+            "type":"CruiseFerry",
+            "segmentNumber":2,
+            "segmentId":"967e0dc5-bf40-f972-15db-589f144660ec",
+            "groupId":"7a9615dc-1fbd-1183-3c77-1e9ebcfe34f0",
+            "title":"egestas",
+            "confirmationNumber":"40a52afe-2112-4e0c-b08e-3f3dbaa16b30",
+            "startDateTime":"2021-04-04T00:03:19",
+            "endDateTime":"2021-04-14T00:03:19",
+            "status":{
+               "code":"HK",
+               "description":"Booked"
+            },
+            "vendor":{
+               "code":"vulputate",
+               "name":"parturient"
+            },
+            "departurePort":{
+               "seaportCode":"itaque"
+            },
+            "arrivalPort":{
+               "seaportCode":"egestas"
+            },
+            "numberInParty":"7654321",
+            "vessel":{
+               "name":"Stephania",
+               "cabin":"cabin_string",
+               "linkCode":"LinkCode_"
+            },
+            "fare":{
+               "fare":{
+                  "amount":114,
+                  "currency":"USD"
+               },
+               "balanceDueDate":"2019-04-15T17:05:00"
+            },
+            "calculatedDuration":"14400",
+            "additionalInformation":"Saepeeveniet integer maximus nec eros.",
+            "isCancelled":false,
+            "notes":"Elementum duis proin nulla doloribus laboriosam adipisci iaculis tenetur ut a."
+         },
+         {
+            "type":"Car",
+            "segmentNumber":3,
+            "segmentId":"9d60ac45-d87a-b6ec-b3b8-82c14fdf68f9",
+            "groupId":"53269d57-44c9-d84d-ae91-792a4e35871c",
+            "title":"BRS",
+            "confirmationNumber":"ZEH52714444F6",
+            "startDateTime":"2021-04-10T00:03:19+01:00",
+            "startTimezone":{
+               "name":"Europe/London",
+               "code":"BST"
+            },
+            "endDateTime":"2021-04-11T00:03:19+01:00",
+            "endTimezone":{
+               "name":"Europe/London",
+               "code":"BST"
+            },
+            "status":{
+               "code":"GK",
+               "description":"Booked"
+            },
+            "rentalCompany":{
+               "code":"ZE",
+               "name":"Hertz Rent-A-Car",
+               "phone":{
+                  
+               }
+            },
+            "pickupLocation":{
+               "address":{
+                  "address1":"Hertz Rent a Car ST5\nBRISTOL A/PORT CAR HIRE HALL BS48 3DS\nBristol",
+                  "city":{
+                     
+                  },
+                  "region":{
+                     
+                  },
+                  "country":{
+                     "code":"GB"
+                  },
+                  "notes":"BRST50"
+               },
+               "airportCode":"BRS",
+               "pickupSpot":"T50"
+            },
+            "dropoffLocation":{
+               "address":{
+                  "address1":"Hertz Rent a Car ST5\nBRISTOL A/PORT CAR HIRE HALL BS48 3DS\nBristol",
+                  "city":{
+                     
+                  },
+                  "region":{
+                     
+                  },
+                  "country":{
+                     "code":"GB"
+                  },
+                  "notes":"BRST50"
+               },
+               "airportCode":"BRST50",
+               "dropoffSpot":"T50"
+            },
+            "arrivalFlight":{
+               
+            },
+            "isInternational":false,
+            "numberOfDays":1,
+            "numberOfHours":0,
+            "calculatedDuration":"1440",
+            "numberOfCars":1,
+            "car":{
+               "type":{
+                  "description":"Economy Car Manual AC"
+               },
+               "specialEquipment":[
+                  
+               ]
+            },
+            "fare":{
+               "rateType":1,
+               "rateSchedule":1,
+               "baseRate":{
+                  "amount":1422.54,
+                  "currency":"USD"
+               },
+               "estimatedTotalRate":{
+                  "amount":1965.05,
+                  "currency":"USD"
+               },
+               "quotedRate":{
+                  "amount":71.84,
+                  "currency":"EUR"
+               },
+               "distanceUnitOfMeasure":0,
+               "corporateDiscountNumber":"637336"
+            },
+            "loyaltyMemberships":[
+               
+            ],
+            "isPassive":true,
+            "isCancelled":false
+         },
+         {
+            "type":"Rail",
+            "segmentNumber":4,
+            "segmentId":"4f4e17ae-367f-6f16-a815-e14f0229ef93",
+            "groupId":"d11a8a9f-e83e-fb44-6388-98bef449c30d",
+            "title":"STRASBOURGSTAT",
+            "confirmationNumber":"TROZUP",
+            "startDateTime":"2021-04-09T00:03:19",
+            "endDateTime":"2021-04-10T00:03:19",
+            "status":{
+               "code":"GK",
+               "description":"Booked"
+            },
+            "carrier":{
+               "name":"SNCF",
+               "operator":"2C"
+            },
+            "startStation":{
+               "stationCode":"CHARLESDEGAUL",
+               "address":{
+                  "address1":"CHARLESDEGAUL  CHARLES DE GAULLE 2 TGVFRMLW",
+                  "city":{
+                     
+                  },
+                  "region":{
+                     
+                  },
+                  "country":{
+                     
+                  },
+                  "notes":"CHARLESDEGAUL - CHARLES DE GAULLE 2 TGV-FRMLW"
+               }
+            },
+            "endStation":{
+               "stationCode":"STRASBOURGSTAT",
+               "address":{
+                  "address1":"STRASBOURGSTAT  STRASBOURG STATIONFRAEG",
+                  "city":{
+                     
+                  },
+                  "region":{
+                     
+                  },
+                  "country":{
+                     
+                  },
+                  "notes":"STRASBOURGSTAT - STRASBOURG STATION-FRAEG"
+               }
+            },
+            "numberInParty":1,
+            "train":{
+               "trainNumber":"7877",
+               "classOfService":{
+                  
+               },
+               "specialInstructions":"SID01-TICKET"
+            },
+            "fare":{
+               "rateQuote":{
+                  "amount":34,
+                  "currency":"EUR"
+               }
+            },
+            "seatSelections":[
+               {
+                  "travelerNumber":"1",
+                  "location":"TGE 5479 SEAT 043-COACH 011-CL1",
+                  "notes":"LongFreeText-Rail4"
+               }
+            ],
+            "mealPreferences":[
+               
+            ],
+            "calculatedDuration":"110",
+            "numberOfStops":0,
+            "isPassive":true,
+            "isCancelled":false,
+            "notes":"0004†RAL†2C†01FEB†4†GK†01††CHARLESDEGAUL††STRASBOURGSTAT†1121ˆCHARLES DE GAULLE 2 TGV-FRMLWˆ1311ˆ01FEBˆSTRASBOURG STATION-FRAEGˆTGE 5479ˆSEAT 043-COACH 011-CL1ˆSID01-TICKETˆTROZUP-ˆˆ"
+         },
+         {
+            "type":"Rail",
+            "segmentNumber":5,
+            "segmentId":"8d38a261-60cb-95fe-e564-ed5c45b46445",
+            "groupId":"d11a8a9f-e83e-fb44-6388-98bef449c30d",
+            "title":"MOLSHEIM",
+            "confirmationNumber":"TROZUP",
+            "startDateTime":"2021-04-08T00:03:19",
+            "endDateTime":"2021-04-09T00:03:19",
+            "status":{
+               "code":"GK",
+               "description":"Booked"
+            },
+            "carrier":{
+               "name":"SNCF",
+               "operator":"2C"
+            },
+            "startStation":{
+               "stationCode":"STRASBOURGSTAT",
+               "address":{
+                  "address1":"STRASBOURGSTAT  STRASBOURG STATIONFRAEG",
+                  "city":{
+                     
+                  },
+                  "region":{
+                     
+                  },
+                  "country":{
+                     
+                  },
+                  "notes":"STRASBOURGSTAT - STRASBOURG STATION-FRAEG"
+               }
+            },
+            "endStation":{
+               "stationCode":"MOLSHEIM",
+               "address":{
+                  "address1":"MOLSHEIM  MOLSHEIMFRMOL",
+                  "city":{
+                     
+                  },
+                  "region":{
+                     
+                  },
+                  "country":{
+                     
+                  },
+                  "notes":"MOLSHEIM - MOLSHEIM-FRMOL"
+               }
+            },
+            "numberInParty":1,
+            "train":{
+               "trainNumber":"31756",
+               "classOfService":{
+                  
+               },
+               "specialInstructions":"SID02-TICKET"
+            },
+            "fare":{
+               "rateQuote":{
+                  "amount":34,
+                  "currency":"EUR"
+               }
+            },
+            "seatSelections":[
+               
+            ],
+            "mealPreferences":[
+               
+            ],
+            "calculatedDuration":"23",
+            "numberOfStops":0,
+            "isPassive":true,
+            "isCancelled":false,
+            "notes":"0005†RAL†2C†01FEB†4†GK†01††STRASBOURGSTAT††MOLSHEIM†1327ˆSTRASBOURG STATION-FRAEGˆ1350ˆ01FEBˆMOLSHEIM-FRMOLˆTER 30886ˆCL2ˆSID02-TICKETˆTROZUP-ˆˆ"
+         },
+         {
+            "type":"Air",
+            "segmentNumber":6,
+            "segmentId":"05c2b500-6d7e-90b4-ef13-6999b5fbab40",
+            "groupId":"ddc0acdb-1caf-a552-7942-c5b791253dad",
+            "title":"Paris Bayu Indonesia",
+            "confirmationNumber":"QWI4Q2",
+            "startDateTime":"2021-04-07T00:03:19+01:00",
+            "startTimezone":{
+               "name":"Europe/London",
+               "code":"BST"
+            },
+            "endDateTime":"2021-04-08T00:03:19+02:00",
+            "endTimezone":{
+               "name":"Europe/Paris",
+               "code":"CEST"
+            },
+            "status":{
+               "code":"HK",
+               "description":"Booked"
+            },
+            "departureAirport":{
+               "airport":{
+                  "code":"BRS",
+                  "name":"Bristol Airport",
+                  "address":{
+                     "city":{
+                        "name":"Bristol"
+                     },
+                     "region":{
+                        "code":"EN",
+                        "name":"England"
+                     },
+                     "country":{
+                        "code":"GB",
+                        "name":"United Kingdom"
+                     },
+                     "coordinates":{
+                        "latitude":"51.386757",
+                        "longitude":"-2.710659"
+                     }
+                  },
+                  "metroArea":{
+                     
+                  },
+                  "isMajorAirport":false
+               }
+            },
+            "arrivalAirport":{
+               "airport":{
+                  "code":"CDG",
+                  "name":"Charles de Gaulle Airport",
+                  "address":{
+                     "address1":"95711",
+                     "address2":"Roissy Charles de Gaulle",
+                     "city":{
+                        "name":"Paris"
+                     },
+                     "region":{
+                        
+                     },
+                     "country":{
+                        "code":"FR",
+                        "name":"France"
+                     },
+                     "coordinates":{
+                        "latitude":"49.003197",
+                        "longitude":"2.567023"
+                     }
+                  },
+                  "metroArea":{
+                     "code":"PAR",
+                     "name":"Paris"
+                  },
+                  "isMajorAirport":false
+               },
+               "terminal":"AEROGARE 3"
+            },
+            "marketingFlight":{
+               "airlineCode":"BM",
+               "airlineName":"Bayu Indonesia",
+               "flightNumber":"4114"
+            },
+            "operatingFlight":{
+               
+            },
+            "isInternational":true,
+            "flightDirection":"outbound",
+            "ticket":{
+               "isTicketed":true,
+               "ticketNumber":"1224661034447",
+               "isTicketless":false,
+               "isETicketCandidate":true
+            },
+            "seatSelections":[
+               
+            ],
+            "mealPreferences":[
+               
+            ],
+            "meal":{
+               "hasSpecialMeal":0
+            },
+            "equipment":{
+               "code":"ER3"
+            },
+            "classOfService":{
+               "code":"W",
+               "description":"Economy"
+            },
+            "inFlightServices":{
+               "code":"10",
+               "description":"Non Smoking"
+            },
+            "flightDistance":285,
+            "calculatedDefra":37.76,
+            "calculatedDefrarf":71.43,
+            "calculatedGhgp":78.66,
+            "calculatedCO2":[
+               {
+                  "key":"defra",
+                  "value":37.76
+               },
+               {
+                  "key":"defrarf",
+                  "value":71.43
+               },
+               {
+                  "key":"ghgp",
+                  "value":78.66
+               }
+            ],
+            "calculatedDuration":"75",
+            "numberOfStops":0,
+            "isScheduleChange":false,
+            "isFlown":false,
+            "isChangeOfGuage":false,
+            "marriedSegments":[
+               
+            ],
+            "connectedSegments":[
+               
+            ],
+            "isPassive":false,
+            "isCancelled":false
+         }
+      ],
+      "fareInfos":[
+         {
+            "segmentNumbers":[
+               "1",
+               "6"
+            ],
+            "fare":{
+               "amount":195,
+               "currency":"EUR"
+            },
+            "estimatedTotalFare":{
+               "amount":310.77,
+               "currency":"EUR"
+            }
+         },
+         {
+            "segmentNumbers":[
+               "3"
+            ],
+            "fare":{
+               "amount":1422.54,
+               "currency":"USD"
+            },
+            "estimatedTotalFare":{
+               "amount":1965.05,
+               "currency":"USD"
+            }
+         },
+         {
+            "segmentNumbers":[
+               "2"
+            ],
+            "fare":{
+               "amount":1696.96,
+               "currency":"USD"
+            },
+            "estimatedTotalFare":{
+               "amount":1696.96,
+               "currency":"USD"
+            }
+         },
+         {
+            "segmentNumbers":[
+               "2"
+            ],
+            "fare":{
+               "amount":114,
+               "currency":"USD"
+            },
+            "estimatedTotalFare":{
+               "amount":114,
+               "currency":"USD"
+            }
+         },
+         {
+            "segmentNumbers":[
+               "4"
+            ],
+            "fare":{
+               "amount":34,
+               "currency":"EUR"
+            },
+            "estimatedTotalFare":{
+               "amount":34,
+               "currency":"EUR"
+            }
+         },
+         {
+            "segmentNumbers":[
+               "5"
+            ],
+            "fare":{
+               "amount":34,
+               "currency":"EUR"
+            },
+            "estimatedTotalFare":{
+               "amount":34,
+               "currency":"EUR"
+            }
+         },
+         {
+            "segmentNumbers":[
+               "1"
+            ],
+            "fare":{
+               "amount":504,
+               "currency":"USD"
+            },
+            "estimatedTotalFare":{
+               "amount":504,
+               "currency":"USD"
+            }
+         }
+      ]
+   }
+}
